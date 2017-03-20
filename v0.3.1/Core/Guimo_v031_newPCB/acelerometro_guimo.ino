@@ -36,4 +36,3 @@ void acelerometro()
             Serial.println("inverso.bmp/n");
           }
 }
-}
