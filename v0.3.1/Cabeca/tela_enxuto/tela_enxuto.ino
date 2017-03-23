@@ -3,7 +3,6 @@
 #include <SD.h>
 #include <SPI.h>
 #include <SoftwareSerial.h>
-#include <Narcoleptic.h>
 
 #define LCD_RST A4
 #define LCD_CS A3 // Chip Select goes to Analog 3
