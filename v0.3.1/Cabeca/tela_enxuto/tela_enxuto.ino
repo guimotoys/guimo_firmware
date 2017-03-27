@@ -31,7 +31,7 @@ void setup()
 {
   Serial.begin(9600);
   tft.reset();
-  tft.begin(0x7575);
+  tft.begin(0x9341);
 
   Serial.print(F("Initializing SD card..."));
   if (!SD.begin(SD_CS)) {
@@ -41,7 +41,7 @@ void setup()
   
   Serial.println(F("OK!"));
   
-  tft.setRotation(1);
+  tft.setRotation(3);
   tft.fillScreen(0);
 
   bmpDraw("padrao.bmp", 0, 0);
