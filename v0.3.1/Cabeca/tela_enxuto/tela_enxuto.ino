@@ -57,7 +57,7 @@ void loop()
      bufCore[num] = Serial.read();
       if(bufCore[num]=='\n')
       {
-        tft.setRotation(1);
+        tft.setRotation(3);
 //        Serial.println(bufCore);
         bufCore[num]=0;           // Zera o \n para não imprimir
         bmpDraw(bufCore, 0, 0);
