@@ -280,6 +280,21 @@ void loop()
     {
       Serial.println("robo.bmp\n");
     }    
+
+    if (dados == "batata")
+    {
+      Serial.println("batata.bmp\n");
+    } 
+
+    if (dados == "hotdog")
+    {
+      Serial.println("hotdog.bmp\n");
+    } 
+
+    if (dados == "sorvete")
+    {
+      Serial.println("sorvete.bmp\n");
+    } 
     
         //Limpar o vetor de char
         for (int ca =0; ca<20; ca++)
